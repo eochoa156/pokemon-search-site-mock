@@ -17,6 +17,9 @@ const pokemonSchema = new mongoose.Schema({
     },
     image: {
         type: String
+    },
+    generation: {
+        type: Number
     }
 })
 
